@@ -26,8 +26,8 @@ public class SaylaniMIS {
 
         if(user.getUserName() == "admin")
         Util.getMultipleStudent(obj);
-        
-
+        System.out.println("");
+            
         obj.displayAllStudent();
 
     }
